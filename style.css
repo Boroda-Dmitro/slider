@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
+
+.slider {
+    border: 2px solid black;
+    /* width: 100%; */
+    max-width: 450px;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+
+    
+}
+
+.slider-line {
+    width: 1024px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
